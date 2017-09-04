@@ -41,20 +41,23 @@
            <li class="list-group-item"> 
                <a href="https://github.com/xugy0926/getting-started-with-javascript/blob/master/topics/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%BF%E7%94%A8Git.md">
                  第一次使用git
-                   <script>
-function changeImage()
-{
-element=document.getElementById('myimage')
-if (element.src.match("bulbon"))
-  {
-  element.src="/i/eg_bulboff.gif";
-  }
-else
-  {
-  element.src="/i/eg_bulbon.gif";
-  }
-}
-</script>
+                   <p>
+                       <body>
+                          <script>
+                               function changeImage()
+                                   {
+                                        element=document.getElementById('myimage')
+                                          if (element.src.match("bulbon"))
+                                                {
+                                                   element.src="/i/eg_bulboff.gif";
+                                                    }
+                                                        else
+                                                       {
+                                                         element.src="/i/eg_bulbon.gif";
+                                                                }
+                                                          }
+                                                            </script>
+                           </body>
 
 <img id="myimage" onclick="changeImage()" src="/i/eg_bulboff.gif">
 
